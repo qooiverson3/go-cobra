@@ -1,7 +1,3 @@
----
-title: 'Golang使用cobra'
----
-
 <h1 style="font-family:Impact">Golang使用cobra CLI</h1>
 
 > [time=Mon, Jan 11, 2021 9:29 PM] [name=Sheng Lai] 
