@@ -1,8 +1,8 @@
 <h1 style="font-family:Impact">Golang使用cobra CLI</h1>
 
-Mon, Jan 11, 2021 9:29 PM
+Mon, Jan 11, 2021
 
-tag: <b>`go` `cobra`</b>
+tags: <b>`go` `cobra`</b>
 ![](https://i.imgur.com/ElsiU4A.png)![](https://i.imgur.com/BrPugSq.png)
 
 <br>
