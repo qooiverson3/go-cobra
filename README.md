@@ -1,6 +1,6 @@
 <h1 style="font-family:Impact">Golang使用cobra CLI</h1>
 
-> [time=Mon, Jan 11, 2021 9:29 PM] [name=Sheng Lai] 
+Mon, Jan 11, 2021 9:29 PM
 
 tag: <b>`go` `cobra`</b>
 ![](https://i.imgur.com/ElsiU4A.png)![](https://i.imgur.com/BrPugSq.png)
