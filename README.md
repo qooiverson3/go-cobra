@@ -1,8 +1,12 @@
-<h1 style="font-family:Impact">Golang使用cobra CLI</h1>
+---
+title: 'Golang使用Cobra'
+---
 
-Mon, Jan 11, 2021
+<h1 style="font-family:Impact">Golang使用Cobra CLI</h1>
 
-tags: <b>`go` `cobra`</b>
+> [time=Mon, Jan 11, 2021 9:29 PM] [name=Sheng Lai] 
+
+tag: <b>`go` `cobra`</b>
 ![](https://i.imgur.com/ElsiU4A.png)![](https://i.imgur.com/BrPugSq.png)
 
 <br>
@@ -11,7 +15,8 @@ tags: <b>`go` `cobra`</b>
 ![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
 ![chat](https://img.shields.io/discord/:serverId.svg) -->
 
- 
+環境建立
+---
 建立 `k8s-deploy-cobra` 專案目錄，並進入目錄初始化modules
 
 ```
@@ -20,9 +25,26 @@ $ mkdir k8s-deploy-cobra && cd k8s-deploy-cobra
 $ go mod init k8s-deploy-cobra
 go: creating new go.mod: module k8s-deploy-cobra
 ```
-執行完目錄下會多一個`go.mod`檔案，尚未安裝`cobra`，執行以下指令進行安裝
+執行完目錄下會多一個`go.mod`檔案，此時尚未安裝`cobra`，執行以下指令進行安裝
 ```
 $ go get -u github.com/spf13/cobra/cobra
+```
+安裝完成後，使用 `cobra init` 指令進行初始化
+```
+$ cobra init --pkg-name k8s-deploy-cobra
+```
+`--pkg-name` 參數使用專案目錄名稱，`init` 指令就會建立出基本的CLI環境
+```
+$ tree .
+.
+├── LICENSE
+├── cmd
+│   └── root.go
+├── go.mod
+├── go.sum
+└── main.go
+
+1 directory, 5 files
 ```
 
 
